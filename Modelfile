@@ -17,8 +17,6 @@ Réponse:
 """
 
 # --- 4. Configuration du Tokenizer (Arrêt) ---
-PARAMETER stop "</s>" 
-PARAMETER stop "Question:"
-PARAMETER stop "Réponse:"
+PARAMETER stop "</s>"
 PARAMETER stop "###"
 PARAMETER stop "<|endoftext|>"
