@@ -2,11 +2,11 @@
 
 # --- 1. Chemin du Fichier GGUF (À adapter) ---
 # Remplacez ceci par le chemin réel de votre fichier GGUF
-FROM hf.co/mradermacher/Riri-GGUF 
+FROM hf.co/Clemylia/Tiny-lamina-gguf 
 
 # --- 2. Paramètres de Génération pour l'Inférénce ---
 # Ajustements pour la stabilité (légèrement plus bas pour un modèle from scratch)
-PARAMETER temperature 0.7
+PARAMETER temperature 0.8
 PARAMETER top_p 0.9 
 PARAMETER top_k 40 
 PARAMETER num_predict 256
